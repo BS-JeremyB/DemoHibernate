@@ -27,8 +27,12 @@
         <!-- Drop and re-create the database schema on startup -->
         <property name="hbm2ddl.auto">create</property>
 
-        <!--mapping class="be.bstorm.entities.Mayor"/>
-        <mapping class="be.bstorm.entities.Municipality"/-->
+        <mapping class="be.bstorm.entities.Mayor"/>
+        <mapping class="be.bstorm.entities.Municipality"/>
+        <mapping class="be.bstorm.entities.Province"/>
+        <mapping class="be.bstorm.entities.Musician"/>
+        <mapping class="be.bstorm.entities.Instrument"/>
+
 
 
     </session-factory>

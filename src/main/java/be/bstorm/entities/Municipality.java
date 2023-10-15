@@ -17,4 +17,7 @@ public class Municipality {
     private String nom;
     @OneToOne(mappedBy = "municipality")
     private Mayor mayor;
+    @ManyToOne
+    @JoinColumn(name  = "province_id")
+    private Province province;
 }
